@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+.first-section{
+    height: 755px;
+    background-image: url(./personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.half-weight{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding-top: 10px;
+}
+img{
+    width: 100%;
+}
+.other{
+    width: 30%;
+    margin-left: 160px;
+}
+#name{
+    margin-top: 220px;
+}
+section div p{
+    padding-left: 150px;
+    padding-top: 25px;
+    color: gray;
+}
+section div h2{
+    padding-left: 150px;
+    color: rgb(226, 57, 85);
+}
+section div h3{
+    padding-left: 150px;
+}
+section div a{
+    border-radius: 10px;
+    margin-left: 150px;
+    text-decoration: none;
+    background: rgb(226, 57, 85);
+    color: white;
+    padding: 7px;
+}
+
+#secnd{
+    padding-top: 55px;
+}
+.another h3{
+    padding-left: 0;
+}
+.another p{
+    padding-left: 0;
+}
+.another a{
+    margin-left: 0;
+}
+
+.second-section{
+    height: 670px;
+    background-image: url(./personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    text-align: center;
+}
+
+
+.third-section{
+    height: 515px;
+    background-image: url(./personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+.third-section .headline{
+    text-align: center;
+}
+.third-section .headline h1{
+    font-size: 40px;
+}
+.third-section .pics{
+    width: 25%;
+    display: inline-flex;
+    margin: 40px;
+    margin-left: 155px;
+}
+.third-section .pics img{
+    padding-right: 25px;
+}
+
+
+
+
+
+.forth-section{
+    text-align: center;
+    height: 600px;
+    background-image: url(./personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.forth-section .client{
+}
+.forth-section .client h1{
+    font-size: 30px;
+}
+.forth-section .client .naame{
+    padding-left: 0px;
+    padding-top: 45px;
+    font-style: inherit;
+    color: black;
+    font-weight: 900;
+}
+.forth-section .client .tag{
+    padding-top: 0px;
+    padding-left: 0;
+    font-size: xx-small;
+}
+.forth-section .client .message{
+    width: 30%;
+    margin-left: 300px;
+}
+
+.forth-section .mail{
+    background-color: rgb(226, 57, 85);
+    width: 50%;
+    border-radius: 25px;
+    margin-left: 325px;
+    position: absolute;
+    margin-top: 40px;
+}
+.forth-section .mail .comment{
+    padding-left: 0;
+    color: white;
+    margin-bottom: -30px;
+}
+.forth-section .mail .email{
+    padding-left: 0;
+    margin-bottom: 35px;
+    font-size: 25px;
+    color: white;
+}
+
+footer{
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
